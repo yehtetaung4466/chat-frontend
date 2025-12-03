@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/forms";
+
+@utility is-invalid {
+    border-color: #ef4444;
+
+}
+
+
+@utility is-valid {
+    border-color: #10B981;
+
+}
